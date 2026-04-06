@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "AI时代的产品策略",
+    "author": "示例作者"
+  },
+  "slides": [
+    {
+      "id": "s-100",
+      "background": { "color": "#ffffff", "image": "", "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" },
+      "elements": [
+        { "id": "el-101", "type": "text", "x": 80, "y": 160, "width": 800, "height": 80, "content": "AI时代的产品策略", "style": { "fontSize": "48px", "fontWeight": "bold", "color": "#ffffff", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.2" }, "zIndex": 1 },
+        { "id": "el-102", "type": "text", "x": 80, "y": 260, "width": 800, "height": 50, "content": "从概念到落地的实践路径", "style": { "fontSize": "24px", "fontWeight": "normal", "color": "rgba(255,255,255,0.85)", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 2 },
+        { "id": "el-103", "type": "text", "x": 80, "y": 420, "width": 800, "height": 40, "content": "2026年4月", "style": { "fontSize": "16px", "fontWeight": "normal", "color": "rgba(255,255,255,0.6)", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 3 }
+      ],
+      "notes": "开场白：感谢大家参与今天的分享"
+    },
+    {
+      "id": "s-200",
+      "background": { "color": "#1a1a2e", "image": "", "gradient": "" },
+      "elements": [
+        { "id": "el-201", "type": "text", "x": 80, "y": 200, "width": 800, "height": 80, "content": "Part 1", "style": { "fontSize": "52px", "fontWeight": "bold", "color": "#ffffff", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.2" }, "zIndex": 1 },
+        { "id": "el-202", "type": "text", "x": 80, "y": 300, "width": 800, "height": 50, "content": "行业背景与趋势", "style": { "fontSize": "24px", "fontWeight": "normal", "color": "#888888", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 2 }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s-300",
+      "background": { "color": "#ffffff", "image": "", "gradient": "" },
+      "elements": [
+        { "id": "el-301", "type": "text", "x": 60, "y": 40, "width": 840, "height": 60, "content": "AI正在重塑每一个行业", "style": { "fontSize": "36px", "fontWeight": "bold", "color": "#1a1a2e", "textAlign": "left", "fontFamily": "sans-serif", "lineHeight": "1.2" }, "zIndex": 1 },
+        { "id": "el-302", "type": "text", "x": 60, "y": 120, "width": 840, "height": 360, "content": "<ul><li><b>效率提升</b>：自动化流程减少80%重复工作</li><li><b>个性化体验</b>：千人千面的用户交互</li><li><b>决策辅助</b>：数据驱动的智能决策</li><li><b>创新加速</b>：从想法到原型的周期大幅缩短</li></ul>", "style": { "fontSize": "22px", "fontWeight": "normal", "color": "#333333", "textAlign": "left", "fontFamily": "sans-serif", "lineHeight": "1.8" }, "zIndex": 2 },
+        { "id": "el-303", "type": "shape", "x": 40, "y": 30, "width": 4, "height": 70, "content": "", "style": { "backgroundColor": "#6c5ce7", "borderRadius": "2px", "borderColor": "transparent", "borderWidth": "0", "borderStyle": "solid" }, "zIndex": 0 }
+      ],
+      "notes": "这里可以举一些具体的行业案例"
+    },
+    {
+      "id": "s-400",
+      "background": { "color": "#ffffff", "image": "", "gradient": "" },
+      "elements": [
+        { "id": "el-401", "type": "text", "x": 60, "y": 40, "width": 840, "height": 60, "content": "传统方式 vs AI驱动", "style": { "fontSize": "36px", "fontWeight": "bold", "color": "#1a1a2e", "textAlign": "left", "fontFamily": "sans-serif", "lineHeight": "1.2" }, "zIndex": 1 },
+        { "id": "el-402", "type": "text", "x": 60, "y": 120, "width": 400, "height": 360, "content": "<h3 style='margin-bottom:12px;color:#e74c3c'>传统方式</h3><ul><li>人工数据分析</li><li>固定流程模板</li><li>反应式运营</li><li>线性增长模式</li></ul>", "style": { "fontSize": "20px", "fontWeight": "normal", "color": "#333333", "textAlign": "left", "fontFamily": "sans-serif", "lineHeight": "1.8" }, "zIndex": 2 },
+        { "id": "el-403", "type": "text", "x": 500, "y": 120, "width": 400, "height": 360, "content": "<h3 style='margin-bottom:12px;color:#2ecc71'>AI驱动</h3><ul><li>实时智能分析</li><li>动态自适应流程</li><li>预测式运营</li><li>指数级增长潜力</li></ul>", "style": { "fontSize": "20px", "fontWeight": "normal", "color": "#333333", "textAlign": "left", "fontFamily": "sans-serif", "lineHeight": "1.8" }, "zIndex": 3 },
+        { "id": "el-404", "type": "shape", "x": 475, "y": 130, "width": 2, "height": 340, "content": "", "style": { "backgroundColor": "#ddd", "borderRadius": "1px", "borderColor": "transparent", "borderWidth": "0", "borderStyle": "solid" }, "zIndex": 0 }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s-500",
+      "background": { "color": "#fef9f0", "image": "", "gradient": "" },
+      "elements": [
+        { "id": "el-501", "type": "shape", "x": 80, "y": 80, "width": 800, "height": 380, "content": "", "style": { "backgroundColor": "#ffffff", "borderRadius": "16px", "borderColor": "transparent", "borderWidth": "0", "borderStyle": "solid" }, "zIndex": 0 },
+        { "id": "el-502", "type": "text", "x": 140, "y": 150, "width": 680, "height": 180, "content": "\"最好的产品不是用AI替代人类，而是让AI增强人类的能力。\"", "style": { "fontSize": "30px", "fontWeight": "normal", "color": "#5D4037", "textAlign": "center", "fontFamily": "Georgia", "lineHeight": "1.5" }, "zIndex": 1 },
+        { "id": "el-503", "type": "text", "x": 140, "y": 360, "width": 680, "height": 40, "content": "— 产品设计原则", "style": { "fontSize": "18px", "fontWeight": "normal", "color": "#8B4513", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 2 }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s-600",
+      "background": { "color": "#ffffff", "image": "", "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)" },
+      "elements": [
+        { "id": "el-601", "type": "text", "x": 80, "y": 180, "width": 800, "height": 80, "content": "Thank You", "style": { "fontSize": "52px", "fontWeight": "bold", "color": "#ffffff", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.2" }, "zIndex": 1 },
+        { "id": "el-602", "type": "text", "x": 80, "y": 280, "width": 800, "height": 50, "content": "Q&A", "style": { "fontSize": "28px", "fontWeight": "normal", "color": "rgba(255,255,255,0.8)", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 2 },
+        { "id": "el-603", "type": "text", "x": 80, "y": 400, "width": 800, "height": 40, "content": "contact@example.com", "style": { "fontSize": "16px", "fontWeight": "normal", "color": "rgba(255,255,255,0.5)", "textAlign": "center", "fontFamily": "sans-serif", "lineHeight": "1.4" }, "zIndex": 3 }
+      ],
+      "notes": ""
+    }
+  ]
+}

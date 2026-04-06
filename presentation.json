@@ -1,0 +1,952 @@
+{
+  "meta": {
+    "title": "SlideJSON - AI + Browser Collaborative Presentation Editor",
+    "author": "SlideJSON Team"
+  },
+  "slides": [
+    {
+      "id": "s-1",
+      "background": {
+        "color": "#ffffff",
+        "image": "",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      },
+      "elements": [
+        {
+          "id": "e-1-1",
+          "type": "text",
+          "x": 131,
+          "y": 140,
+          "width": 700,
+          "height": 80,
+          "content": "SlideJSON",
+          "style": {
+            "fontSize": 64,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center",
+            "fontFamily": "Arial, sans-serif"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-1-4",
+          "type": "shape",
+          "x": 350,
+          "y": 430,
+          "width": 260,
+          "height": 50,
+          "content": "",
+          "style": {
+            "backgroundColor": "rgba(255,255,255,0.15)",
+            "borderRadius": "25px",
+            "border": "2px solid rgba(255,255,255,0.3)"
+          },
+          "zIndex": 4
+        },
+        {
+          "id": "e-1-5",
+          "type": "text",
+          "x": 350,
+          "y": 438,
+          "width": 260,
+          "height": 36,
+          "content": "JSON as Single Source of Truth",
+          "style": {
+            "fontSize": 14,
+            "color": "#ffffff",
+            "textAlign": "center",
+            "fontFamily": "Arial, sans-serif"
+          },
+          "zIndex": 5
+        }
+      ],
+      "notes": "Opening slide - introduce SlideJSON concept"
+    },
+    {
+      "id": "s-2",
+      "background": {
+        "color": "#1a1a2e",
+        "image": "",
+        "gradient": ""
+      },
+      "elements": [
+        {
+          "id": "e-2-1",
+          "type": "text",
+          "x": 60,
+          "y": 40,
+          "width": 840,
+          "height": 60,
+          "content": "The Problem",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#e94560",
+            "textAlign": "left",
+            "fontFamily": "Arial, sans-serif"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-2-2",
+          "type": "shape",
+          "x": 60,
+          "y": 120,
+          "width": 400,
+          "height": 180,
+          "content": "",
+          "style": {
+            "backgroundColor": "#16213e",
+            "borderRadius": "12px",
+            "border": "2px solid #e94560"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-2-3",
+          "type": "text",
+          "x": 80,
+          "y": 135,
+          "width": 360,
+          "height": 40,
+          "content": "HTML Presentations",
+          "style": {
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "color": "#e94560",
+            "textAlign": "center"
+          },
+          "zIndex": 3
+        },
+        {
+          "id": "e-2-4",
+          "type": "text",
+          "x": 80,
+          "y": 180,
+          "width": 360,
+          "height": 100,
+          "content": "AI generation friendly\nRich expressiveness\nBut... hard for humans to edit",
+          "style": {
+            "fontSize": 16,
+            "color": "#cccccc",
+            "textAlign": "center",
+            "lineHeight": "1.8"
+          },
+          "zIndex": 4
+        },
+        {
+          "id": "e-2-5",
+          "type": "shape",
+          "x": 500,
+          "y": 120,
+          "width": 400,
+          "height": 180,
+          "content": "",
+          "style": {
+            "backgroundColor": "#16213e",
+            "borderRadius": "12px",
+            "border": "2px solid #0f3460"
+          },
+          "zIndex": 5
+        },
+        {
+          "id": "e-2-6",
+          "type": "text",
+          "x": 520,
+          "y": 135,
+          "width": 360,
+          "height": 40,
+          "content": "Traditional PPT",
+          "style": {
+            "fontSize": 22,
+            "fontWeight": "bold",
+            "color": "#0f3460",
+            "textAlign": "center"
+          },
+          "zIndex": 6
+        },
+        {
+          "id": "e-2-7",
+          "type": "text",
+          "x": 520,
+          "y": 180,
+          "width": 360,
+          "height": 100,
+          "content": "Human editing friendly\nWYSIWYG experience\nBut... hard for AI to generate",
+          "style": {
+            "fontSize": 16,
+            "color": "#cccccc",
+            "textAlign": "center",
+            "lineHeight": "1.8"
+          },
+          "zIndex": 7
+        },
+        {
+          "id": "e-2-8",
+          "type": "text",
+          "x": 200,
+          "y": 350,
+          "width": 560,
+          "height": 120,
+          "content": "Can we have the best of both worlds?",
+          "style": {
+            "fontSize": 32,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "zIndex": 8
+        }
+      ],
+      "notes": "Present the contradiction between HTML and PPT"
+    },
+    {
+      "id": "s-3",
+      "background": {
+        "color": "#ffffff",
+        "image": "",
+        "gradient": "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)"
+      },
+      "elements": [
+        {
+          "id": "e-3-1",
+          "type": "text",
+          "x": 60,
+          "y": 30,
+          "width": 840,
+          "height": 60,
+          "content": "Our Solution",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#2d3436",
+            "textAlign": "left"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-3-2",
+          "type": "shape",
+          "x": 60,
+          "y": 110,
+          "width": 250,
+          "height": 140,
+          "content": "",
+          "style": {
+            "backgroundColor": "#6c5ce7",
+            "borderRadius": "12px"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-3-3",
+          "type": "text",
+          "x": 58,
+          "y": 127,
+          "width": 250,
+          "height": 100,
+          "content": "CLI (AI)\nGenerate & Modify\nJSON Data",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "1.6"
+          },
+          "zIndex": 3
+        },
+        {
+          "id": "e-3-4",
+          "type": "text",
+          "x": 330,
+          "y": 155,
+          "width": 80,
+          "height": 50,
+          "content": ">>>",
+          "style": {
+            "fontSize": 32,
+            "color": "#636e72",
+            "textAlign": "center"
+          },
+          "zIndex": 4
+        },
+        {
+          "id": "e-3-5",
+          "type": "shape",
+          "x": 420,
+          "y": 110,
+          "width": 180,
+          "height": 140,
+          "content": "",
+          "style": {
+            "backgroundColor": "#00b894",
+            "borderRadius": "12px"
+          },
+          "zIndex": 5
+        },
+        {
+          "id": "e-3-6",
+          "type": "text",
+          "x": 420,
+          "y": 130,
+          "width": 180,
+          "height": 100,
+          "content": "Python Server\nSync Bridge\nSSE + REST",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "1.6"
+          },
+          "zIndex": 6
+        },
+        {
+          "id": "e-3-7",
+          "type": "text",
+          "x": 615,
+          "y": 155,
+          "width": 80,
+          "height": 50,
+          "content": ">>>",
+          "style": {
+            "fontSize": 32,
+            "color": "#636e72",
+            "textAlign": "center"
+          },
+          "zIndex": 7
+        },
+        {
+          "id": "e-3-8",
+          "type": "shape",
+          "x": 700,
+          "y": 110,
+          "width": 210,
+          "height": 140,
+          "content": "",
+          "style": {
+            "backgroundColor": "#e17055",
+            "borderRadius": "12px"
+          },
+          "zIndex": 8
+        },
+        {
+          "id": "e-3-9",
+          "type": "text",
+          "x": 700,
+          "y": 130,
+          "width": 210,
+          "height": 100,
+          "content": "Browser Editor\nDrag & Edit\nReal-time Preview",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center",
+            "lineHeight": "1.6"
+          },
+          "zIndex": 9
+        },
+        {
+          "id": "e-3-10",
+          "type": "shape",
+          "x": 300,
+          "y": 290,
+          "width": 360,
+          "height": 60,
+          "content": "",
+          "style": {
+            "backgroundColor": "#fdcb6e",
+            "borderRadius": "30px"
+          },
+          "zIndex": 10
+        },
+        {
+          "id": "e-3-11",
+          "type": "text",
+          "x": 300,
+          "y": 300,
+          "width": 360,
+          "height": 40,
+          "content": "presentation.json = Single Source of Truth",
+          "style": {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "color": "#2d3436",
+            "textAlign": "center"
+          },
+          "zIndex": 11
+        },
+        {
+          "id": "e-3-12",
+          "type": "text",
+          "x": 60,
+          "y": 380,
+          "width": 840,
+          "height": 120,
+          "content": "AI writes JSON, browser renders JSON, humans edit visually, changes sync back to JSON. Everyone speaks the same language.",
+          "style": {
+            "fontSize": 20,
+            "color": "#636e72",
+            "textAlign": "center",
+            "lineHeight": "1.6"
+          },
+          "zIndex": 12
+        }
+      ],
+      "notes": "Architecture overview: CLI -> Server -> Browser, JSON as bridge"
+    },
+    {
+      "id": "s-4",
+      "background": {
+        "color": "#0a0a23",
+        "image": "",
+        "gradient": ""
+      },
+      "elements": [
+        {
+          "id": "e-4-1",
+          "type": "text",
+          "x": 60,
+          "y": 30,
+          "width": 840,
+          "height": 60,
+          "content": "How It Works",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "left"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-4-2",
+          "type": "text",
+          "x": 60,
+          "y": 110,
+          "width": 840,
+          "height": 400,
+          "content": "1. User gives project URL + prompt to CLI\n\n2. CLI clones repo, reads README, starts server\n\n3. CLI generates presentation.json\n\n4. Browser auto-loads and renders slides\n\n5. User drags elements / tells CLI to change\n\n6. Export as standalone HTML to share",
+          "style": {
+            "fontSize": 22,
+            "color": "#a0a0ff",
+            "textAlign": "left",
+            "lineHeight": "1.8",
+            "fontFamily": "Arial, sans-serif"
+          },
+          "zIndex": 2
+        }
+      ],
+      "notes": "Step-by-step workflow"
+    },
+    {
+      "id": "s-5",
+      "background": {
+        "color": "#ffffff",
+        "image": "",
+        "gradient": "linear-gradient(180deg, #ffffff 0%, #f0f0f0 100%)"
+      },
+      "elements": [
+        {
+          "id": "e-5-1",
+          "type": "text",
+          "x": 60,
+          "y": 30,
+          "width": 840,
+          "height": 60,
+          "content": "Editor Features",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#2d3436",
+            "textAlign": "left"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-5-2",
+          "type": "shape",
+          "x": 60,
+          "y": 110,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-5-3",
+          "type": "text",
+          "x": 70,
+          "y": 120,
+          "width": 240,
+          "height": 140,
+          "content": "Drag & Resize\nFree position any element\nPixel-perfect control",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 3
+        },
+        {
+          "id": "e-5-4",
+          "type": "shape",
+          "x": 350,
+          "y": 110,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 4
+        },
+        {
+          "id": "e-5-5",
+          "type": "text",
+          "x": 360,
+          "y": 120,
+          "width": 240,
+          "height": 140,
+          "content": "Rich Styling\nColors, fonts, gradients\nBorders, shadows, opacity",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 5
+        },
+        {
+          "id": "e-5-6",
+          "type": "shape",
+          "x": 640,
+          "y": 110,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 6
+        },
+        {
+          "id": "e-5-7",
+          "type": "text",
+          "x": 650,
+          "y": 120,
+          "width": 240,
+          "height": 140,
+          "content": "Multi-Type Elements\nText, images, shapes\nLayer ordering (z-index)",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 7
+        },
+        {
+          "id": "e-5-8",
+          "type": "shape",
+          "x": 60,
+          "y": 300,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 8
+        },
+        {
+          "id": "e-5-9",
+          "type": "text",
+          "x": 70,
+          "y": 310,
+          "width": 240,
+          "height": 140,
+          "content": "Slide Backgrounds\nSolid color, gradient\nCustom images",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 9
+        },
+        {
+          "id": "e-5-10",
+          "type": "shape",
+          "x": 350,
+          "y": 300,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 10
+        },
+        {
+          "id": "e-5-11",
+          "type": "text",
+          "x": 360,
+          "y": 310,
+          "width": 240,
+          "height": 140,
+          "content": "Real-time Sync\nSSE auto-refresh\n300ms debounce save",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 11
+        },
+        {
+          "id": "e-5-12",
+          "type": "shape",
+          "x": 640,
+          "y": 300,
+          "width": 260,
+          "height": 160,
+          "content": "",
+          "style": {
+            "backgroundColor": "#dfe6e9",
+            "borderRadius": "12px",
+            "border": "2px solid #b2bec3"
+          },
+          "zIndex": 12
+        },
+        {
+          "id": "e-5-13",
+          "type": "text",
+          "x": 650,
+          "y": 310,
+          "width": 240,
+          "height": 140,
+          "content": "Export HTML\nStandalone single file\nNo server needed to view",
+          "style": {
+            "fontSize": 16,
+            "color": "#2d3436",
+            "textAlign": "center",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 13
+        }
+      ],
+      "notes": "6 feature cards showing editor capabilities"
+    },
+    {
+      "id": "s-6",
+      "background": {
+        "color": "#1e272e",
+        "image": "",
+        "gradient": ""
+      },
+      "elements": [
+        {
+          "id": "e-6-1",
+          "type": "text",
+          "x": 60,
+          "y": 30,
+          "width": 840,
+          "height": 60,
+          "content": "Tech Stack",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "left"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-6-2",
+          "type": "shape",
+          "x": 60,
+          "y": 110,
+          "width": 400,
+          "height": 70,
+          "content": "",
+          "style": {
+            "backgroundColor": "#6c5ce7",
+            "borderRadius": "8px"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-6-3",
+          "type": "text",
+          "x": 80,
+          "y": 125,
+          "width": 360,
+          "height": 40,
+          "content": "Backend: Python 3.6+ (stdlib only)",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "left"
+          },
+          "zIndex": 3
+        },
+        {
+          "id": "e-6-4",
+          "type": "shape",
+          "x": 60,
+          "y": 200,
+          "width": 400,
+          "height": 70,
+          "content": "",
+          "style": {
+            "backgroundColor": "#e17055",
+            "borderRadius": "8px"
+          },
+          "zIndex": 4
+        },
+        {
+          "id": "e-6-5",
+          "type": "text",
+          "x": 80,
+          "y": 215,
+          "width": 360,
+          "height": 40,
+          "content": "Frontend: Vanilla JS (zero deps)",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "left"
+          },
+          "zIndex": 5
+        },
+        {
+          "id": "e-6-6",
+          "type": "shape",
+          "x": 60,
+          "y": 290,
+          "width": 400,
+          "height": 70,
+          "content": "",
+          "style": {
+            "backgroundColor": "#00b894",
+            "borderRadius": "8px"
+          },
+          "zIndex": 6
+        },
+        {
+          "id": "e-6-7",
+          "type": "text",
+          "x": 80,
+          "y": 305,
+          "width": 360,
+          "height": 40,
+          "content": "Sync: SSE + REST API",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "left"
+          },
+          "zIndex": 7
+        },
+        {
+          "id": "e-6-8",
+          "type": "shape",
+          "x": 60,
+          "y": 380,
+          "width": 400,
+          "height": 70,
+          "content": "",
+          "style": {
+            "backgroundColor": "#fdcb6e",
+            "borderRadius": "8px"
+          },
+          "zIndex": 8
+        },
+        {
+          "id": "e-6-9",
+          "type": "text",
+          "x": 80,
+          "y": 395,
+          "width": 360,
+          "height": 40,
+          "content": "Data: JSON (single file)",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold",
+            "color": "#2d3436",
+            "textAlign": "left"
+          },
+          "zIndex": 9
+        },
+        {
+          "id": "e-6-10",
+          "type": "text",
+          "x": 520,
+          "y": 120,
+          "width": 380,
+          "height": 340,
+          "content": "Zero external dependencies\n\nPython 3.6 compatible\n\nWorks on any machine\n\nCloud server friendly\n\nAuto IP detection\n\nThreaded HTTP server",
+          "style": {
+            "fontSize": 18,
+            "color": "#b2bec3",
+            "textAlign": "left",
+            "lineHeight": "2.0"
+          },
+          "zIndex": 10
+        }
+      ],
+      "notes": "Technology choices and their rationale"
+    },
+    {
+      "id": "s-7",
+      "background": {
+        "color": "#ffffff",
+        "image": "",
+        "gradient": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)"
+      },
+      "elements": [
+        {
+          "id": "e-7-1",
+          "type": "text",
+          "x": 60,
+          "y": 30,
+          "width": 840,
+          "height": 60,
+          "content": "Quick Start",
+          "style": {
+            "fontSize": 42,
+            "fontWeight": "bold",
+            "color": "#2d3436",
+            "textAlign": "left"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-7-2",
+          "type": "shape",
+          "x": 60,
+          "y": 110,
+          "width": 840,
+          "height": 360,
+          "content": "",
+          "style": {
+            "backgroundColor": "rgba(0,0,0,0.05)",
+            "borderRadius": "12px"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-7-3",
+          "type": "text",
+          "x": 90,
+          "y": 130,
+          "width": 780,
+          "height": 320,
+          "content": "# Clone the repo\ngit clone http://dev.zstack.io:9080/haoqian.li/http-ppt.git\n\n# Start the server\npython server.py --port 8080\n\n# Open browser at the displayed URL\n# Start editing visually!\n\n# Or tell CLI AI:\n\"Read the README and help me create a presentation\"",
+          "style": {
+            "fontSize": 18,
+            "color": "#2d3436",
+            "textAlign": "left",
+            "fontFamily": "monospace",
+            "lineHeight": "1.8"
+          },
+          "zIndex": 3
+        }
+      ],
+      "notes": "How to get started with SlideJSON"
+    },
+    {
+      "id": "s-8",
+      "background": {
+        "color": "#ffffff",
+        "image": "",
+        "gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+      },
+      "elements": [
+        {
+          "id": "e-8-1",
+          "type": "text",
+          "x": 130,
+          "y": 150,
+          "width": 700,
+          "height": 80,
+          "content": "Try It Now!",
+          "style": {
+            "fontSize": 56,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "zIndex": 1
+        },
+        {
+          "id": "e-8-2",
+          "type": "text",
+          "x": 180,
+          "y": 260,
+          "width": 600,
+          "height": 50,
+          "content": "Drag any element on this slide to experience it",
+          "style": {
+            "fontSize": 22,
+            "color": "#e0e0ff",
+            "textAlign": "center"
+          },
+          "zIndex": 2
+        },
+        {
+          "id": "e-8-3",
+          "type": "shape",
+          "x": 200,
+          "y": 350,
+          "width": 560,
+          "height": 60,
+          "content": "",
+          "style": {
+            "backgroundColor": "rgba(255,255,255,0.2)",
+            "borderRadius": "30px",
+            "border": "2px solid rgba(255,255,255,0.4)"
+          },
+          "zIndex": 3
+        },
+        {
+          "id": "e-8-4",
+          "type": "text",
+          "x": 200,
+          "y": 362,
+          "width": 560,
+          "height": 36,
+          "content": "AI generates. You refine. Together, perfect.",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "#ffffff",
+            "textAlign": "center"
+          },
+          "zIndex": 4
+        }
+      ],
+      "notes": "Closing slide - encourage interaction"
+    }
+  ]
+}
