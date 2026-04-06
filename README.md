@@ -177,6 +177,6 @@ http-ppt/
 
 将以下内容发给CLI AI工具即可开始：
 
-> 请克隆 http://dev.zstack.io:9080/haoqian.li/http-ppt.git ，读一下README，然后帮我做一个关于[你的主题]的演示文稿。
+> 请克隆 https://github.com/hock1024always/html-ppt ，读一下README，然后帮我做一个关于[你的主题]的演示文稿。
 
 AI会自动理解项目结构、启动Server、生成内容，你在浏览器中实时预览和微调。
